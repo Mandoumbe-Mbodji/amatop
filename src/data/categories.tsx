@@ -1,0 +1,102 @@
+import {
+  Smartphone,
+  Laptop,
+  Home,
+  ShoppingBag,
+  Baby,
+  Shirt,
+  Utensils,
+  Dumbbell,
+  BookOpen,
+  Gamepad2,
+  Wrench,
+  Car,
+} from 'lucide-react';
+import { Category } from '../types';
+
+export const categories: Category[] = [
+  {
+    id: 'electronics',
+    name: 'Électronique',
+    icon: <Smartphone />,
+    description: 'Smartphones, tablettes et accessoires électroniques',
+    productCount: 15,
+  },
+  {
+    id: 'computers',
+    name: 'Informatique',
+    icon: <Laptop />,
+    description: 'Ordinateurs, périphériques et accessoires',
+    productCount: 12,
+  },
+  {
+    id: 'home',
+    name: 'Maison',
+    icon: <Home />,
+    description: 'Décoration, meubles et électroménager',
+    productCount: 18,
+  },
+  {
+    id: 'kitchen',
+    name: 'Cuisine',
+    icon: <Utensils />,
+    description: 'Ustensiles, appareils et accessoires de cuisine',
+    productCount: 14,
+  },
+  {
+    id: 'fashion',
+    name: 'Mode',
+    icon: <Shirt />,
+    description: 'Vêtements, chaussures et accessoires',
+    productCount: 20,
+  },
+  {
+    id: 'baby',
+    name: 'Bébé',
+    icon: <Baby />,
+    description: 'Produits pour bébés et enfants',
+    productCount: 10,
+  },
+  {
+    id: 'sports',
+    name: 'Sports',
+    icon: <Dumbbell />,
+    description: 'Équipement sportif et fitness',
+    productCount: 8,
+  },
+  {
+    id: 'books',
+    name: 'Livres',
+    icon: <BookOpen />,
+    description: 'Livres, eBooks et produits culturels',
+    productCount: 16,
+  },
+  {
+    id: 'toys',
+    name: 'Jeux & Jouets',
+    icon: <Gamepad2 />,
+    description: 'Jeux, jouets et loisirs',
+    productCount: 9,
+  },
+  {
+    id: 'diy',
+    name: 'Bricolage',
+    icon: <Wrench />,
+    description: 'Outils et matériaux de bricolage',
+    productCount: 7,
+  },
+  {
+    id: 'auto',
+    name: 'Auto & Moto',
+    icon: <Car />,
+    description: 'Pièces, accessoires et outillage',
+    productCount: 6,
+  },
+  {
+    id: 'deals',
+    name: 'Bonnes Affaires',
+    icon: <ShoppingBag />,
+    description: 'Les meilleures promotions actuelles',
+    productCount: 12,
+  }
+];
